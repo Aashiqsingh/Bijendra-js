@@ -11,3 +11,5 @@ Take user input amount
 5 - 1 
 2 - 
 1 - 1
+
+
