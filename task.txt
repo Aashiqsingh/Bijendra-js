@@ -13,3 +13,4 @@ Take user input amount
 1 - 1
 
 
+2 ) "Royal technosoft" reverse order
