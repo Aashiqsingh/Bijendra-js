@@ -17,3 +17,9 @@ Take user input amount
 
 
 n500 
+
+
+hw : 
+1 . convert into hours and minutes and seconds
+
+2. 5 json makes diffrent topics 
