@@ -49,5 +49,7 @@ function mul(x,y){
 
 }
 
-var x = mul(2,3)
-console.log("Multiply = ",x);
+// var x = mul(2,3)
+// console.log("Multiply = ",x);
+
+console.log(mul(2,3));
