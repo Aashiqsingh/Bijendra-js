@@ -27,7 +27,7 @@ var departments = [
         employees:[
             
             {
-                name:"geeta",
+                name:"payal",
                 age:32,
                 gender:"female",
                 isActive:true
@@ -48,33 +48,100 @@ var departments = [
                 name:"siya",
                 age:35,
                 gender:"female",
-                isActive:true
+                isActive:true,
+                salary:50000
             },
             {
                 name:"axit",
-                age:37,
+                age:24,
                 gender:"male",
-                isActive:true
+                isActive:true,
+                salary:45000
             },
             {
                 name:"payal",
                 age:39,
                 gender:"female",
-                isActive:true
+                isActive:true,
+                salary:60000
             },
             {
                 name:"sunit",
                 age:42,
                 gender:"male",
-                isActive:false
+                isActive:false,
+                salary:55000
             }
             
         ]
     },
+
 ]
 
-var x = departments.find((depart)=> depart.name === "Finance").employees.filter((emp)=> emp.gender === "female")
-console.log(x);
+// var x = departments.find((depart)=> depart.name === "Finance").employees.reduce((sum,emp)=> sum + emp.salary,0)
+// console.log(x);
+
+
+
+
+
+
+// var sum = 0;
+// departments.forEach((depart)=>{
+//     if(depart.name === "Finance")
+//     {
+//         depart.employees.forEach((emp)=>{
+//             sum = sum + emp.salary
+//         })
+        
+//     }
+    
+    
+// })
+
+// console.log(sum);
+
+
+
+
+
+
+
+
+
+
+// var x = departments.map((depart)=> depart.employees.filter((emp)=> emp.name === "payal"))
+// console.log(x);
+
+
+
+
+
+// var x = departments.map((depart)=> depart.employees.filter((emp)=> emp.age > 25))
+// console.log(x);
+
+
+
+
+
+
+
+
+
+// var x = departments.find((depart)=>{
+//     return depart.name === "IT"
+// }).employees.filter((emp)=>{
+//     return emp.age >= 25
+// })
+
+// console.log(x);
+
+
+
+
+
+// var x = departments.find((depart)=> depart.name === "Finance").employees.filter((emp)=> emp.gender === "female")
+// console.log(x);
 
 
 
@@ -96,3 +163,36 @@ console.log(x);
 // })
 
 // console.log(x);
+
+
+
+var employee = [
+    {
+        name : "rahul",
+        salary : 50000
+    },
+    {
+        name:"tejas",
+        salary : 60000
+    },
+    {
+        name : "james",
+        salary : 70000
+    }
+]
+
+
+// var sum = 0;
+
+// for(let i=0;i<employee.length;i++)
+// {
+//     sum = sum + employee[i].salary
+// }
+
+// console.log(sum);
+
+var x= employee.reduce((sum,emp)=>{
+    return sum + emp.salary
+},0)
+
+console.log(x);
