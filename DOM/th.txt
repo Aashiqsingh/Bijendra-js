@@ -1,0 +1,20 @@
+DOM --> Document object model 
+
+
+identifier 
+
+1. id [uniqui]
+2. name [multiple]
+3. class [multiple]
+4. tagName [multiple]
+5. querrySelector 
+
+
+Mouse Event
+1. onclick
+2. ondblclick
+3. onmousemove
+4. onmouseout
+5. onmouseover
+6. onmouseenter
+7. onmouseleave
